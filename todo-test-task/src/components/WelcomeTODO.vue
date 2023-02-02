@@ -1,7 +1,7 @@
 <template>
 <header class='section headerSection' >
     <div class="container">
-        <h1>Simple TODO</h1>
+        <h1>Simple VUE TODO Application</h1>
         <!-- <p>{{ msg }}</p>
         <button type="button">Click me!</button> -->
     </div>
