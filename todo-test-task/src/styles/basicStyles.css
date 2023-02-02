@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 8px;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section {
+  padding: 20px 0;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus,
+button:active {
+  box-shadow: 0 4px 16px 4px rgba(31, 38, 135, 0.37);
+}

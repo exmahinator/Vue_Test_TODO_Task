@@ -1,0 +1,9 @@
+h1 {
+  padding: 0;
+  margin: 0;
+}
+.headerSection {
+  background-color: aqua;
+  border: 3px solid darkcyan;
+  border-radius: 25px;
+}

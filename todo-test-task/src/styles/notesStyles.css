@@ -1,0 +1,59 @@
+.notesList {
+  font-size: 30px;
+  line-height: 1.15;
+}
+
+.notesItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: darkcyan;
+  border-radius: 25px;
+  padding: 3px;
+}
+
+.notesSubCointainer {
+  padding: 20px;
+  background-color: aquamarine;
+  border-radius: 25px;
+}
+
+.notesSubCointainer:last-child {
+  margin-left: 4px;
+}
+
+.notesButtons {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  justify-content: space-evenly;
+}
+
+.notesBtn {
+  display: flex;
+  padding: 10px;
+  min-width: 40px;
+  min-height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  font-size: 18px;
+  line-height: 1.15;
+}
+
+.notesEdit {
+  background-color: lightgreen;
+  margin-bottom: 20px;
+}
+
+.notesDelete {
+  background-color: lightcoral;
+}
+
+.notesTask {
+  flex-grow: 1;
+}
+
+.notesSubItem:not(:last-child) {
+  margin-bottom: 5px;
+}
