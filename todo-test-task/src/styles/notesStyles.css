@@ -54,6 +54,8 @@
   flex-grow: 1;
 }
 
-.notesSubItem:not(:last-child) {
+.notesSubItem {
   margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid darkcyan;
 }
