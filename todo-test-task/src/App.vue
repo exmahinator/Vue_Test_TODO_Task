@@ -1,29 +1,31 @@
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-  <WelcomeTODO msg="This is my first message!"/>
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  <!-- <reusableButton>This is my button</reusableButton>> -->
+  <WelcomeTODO/>
   <section class="section">
     <div class="container">
       <AddNotes/>
       <NotesList/>
     </div>
   </section>
+  <section class="section">
+    <div class="container">
+      <NewNote />
+    </div>
+  </section>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
 import WelcomeTODO from "./components/WelcomeTODO.vue"
 import AddNotes from "./components/AddNotes.vue"
 import NotesList from "./components/NotesList.vue"
+import NewNote from "./components/NewNote.vue";
 
 export default {
   name: 'App',
   components: {
-    // HelloWorld,
     WelcomeTODO,
     AddNotes,
-    NotesList
+    NotesList,
+    NewNote
 }
 }
 </script>
@@ -35,6 +37,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  /* margin-top: 60px; */
 }
 </style>

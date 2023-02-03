@@ -1,31 +1,17 @@
 <template>
-<header class='section headerSection' >
+  <header class="headerSection">
     <div class="container">
-        <h1>Simple VUE TODO Application</h1>
-        <!-- <p>{{ msg }}</p>
-        <button type="button">Click me!</button> -->
+      <h1>Simple VUE TODO Application</h1>
     </div>
-</header>
+  </header>
 </template>
 
 <script>
 export default {
-    name: 'WelcomeTODO',
-    // props: {
-    //     msg: String
-    // }
-}
+  name: "WelcomeTODO",
+};
 </script>
 
 <style scoped>
-@import "../styles/headerStyles.css"
-/* @import "../styles/basicStyles.css"; */
-/* @import "../styles/section.css"; */
-/* h1 {
-    padding: 0;
-    margin: 0;
-}
-.headerSection {
-    background-color: aqua;
-} */
+@import "../styles/headerStyles.css";
 </style>

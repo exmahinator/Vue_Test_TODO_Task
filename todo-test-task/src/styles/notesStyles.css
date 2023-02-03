@@ -6,10 +6,13 @@
 .notesItem {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
   background-color: darkcyan;
   border-radius: 25px;
   padding: 3px;
+}
+
+.notesItem:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 .notesSubCointainer {
@@ -43,11 +46,13 @@
 
 .notesEdit {
   background-color: lightgreen;
+
   margin-bottom: 20px;
 }
 
 .notesDelete {
   background-color: lightcoral;
+
 }
 
 .notesTask {
@@ -58,4 +63,23 @@
   margin-bottom: 5px;
   padding-bottom: 5px;
   border-bottom: 2px solid darkcyan;
+}
+
+.notesLabel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notesText {
+  text-align: justify;
+}
+
+.notesInput {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  min-width: 30px;
+  height: 30px;
+  margin-left: 20px;
 }

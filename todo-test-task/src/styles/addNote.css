@@ -1,18 +1,179 @@
-.addNoteContainer {
+.newNoteContainer {
+  border: 3px solid darkcyan;
+  border-radius: 30px;
+  padding: 4px;
+  font-size: 25px;
+}
+
+.newNoteBtn {
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding-bottom: 20px;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 40px;
+  font-size: 25px;
+  background-color: paleturquoise;
+}
+
+.newNoteSubContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background-color: aquamarine;
+  border: 3px solid darkcyan;
+}
+
+.newNoteSubContainer:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.newNoteHeader {
+  display: flex;
+  padding: 10px;
   font-size: 40px;
+  line-height: 1.15;
+  border-bottom: 3px solid darkcyan;
+  border-top: 3px solid darkcyan;
+  border-radius: 20px;
+  align-self: center;
+}
+
+.newNoteLabel {
+  display: flex;
+  padding: 5px;
+  border-bottom: 3px solid darkcyan;
+}
+
+.newNoteText {
+  text-align: justify;
+  display: flex;
+  margin-right: 10px;
+}
+
+.newNoteInput {
+  display: inline-flex;
+  padding: 5px 10px;
+  border-radius: 25px;
+  background-color: aliceblue;
+  font-size: 20px;
   line-height: 1.15;
 }
 
-.addNoteBtn {
-  padding: 10px;
-  background-color: paleturquoise;
+.newNoteInput::placeholder {
+  text-align: center;
+}
+
+.newNoteLabel:not(:last-child) {
+  padding-bottom: 10px;
+}
+
+.newNoteAddTodoContainer {
   display: flex;
-  font-size: inherit;
-  line-height: inherit;
-  border: 2px solid darkcyan;
-  border-radius: 15px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* .newNoteAddTodoBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 40px;
+  border: 3px solid darkcyan;
+  font-size: 25px;
+  background-color: transparent;
+} */
+
+.newNoteResultContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.newNoteResultControl {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.newNoteResultHeader {
+  display: flex;
+  padding-left: 40px;
+}
+
+.newNoteResultText {
+  display: inline-flex;
+  margin-right: 20px;
+}
+
+.newNotesControlContainer {
+  display: flex;
+  width: 100%;
+}
+
+.newNoteResultTodos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.newNoteResultTodo {
+  width: 100%;
+}
+
+.newNoteResultTodo:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.newNoteResultSubContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newNoteResultItemText {
+  text-align: justify;
+}
+
+.removeTodoBtn {
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  min-width: 120px;
+  margin-left: 15px;
+  align-self: baseline;
+  background-color: lightcoral;
+}
+
+.removeNoteBtn {
+  background-color: lightcoral;
+}
+
+.saveNoteBtn {
+  background-color: lightgreen;
+}
+
+.topRound {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.bottomRound {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.removeTodoBtn:hover,
+.removeTodoBtn:focus,
+.removeNoteBtn:hover,
+.removeNoteBtn:focus {
+  background-color: lightcoral;
 }
